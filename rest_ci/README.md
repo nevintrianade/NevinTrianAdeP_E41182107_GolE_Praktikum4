@@ -8,6 +8,8 @@
 6. Download postman pada link https://www.postman.com/downloads/
 7. Install Postman.
 8. Buatlah database kontak.
+
+```php
 CREATE TABLE IF NOT EXISTS `telepon` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nama` varchar(50) NOT NULL,
@@ -19,7 +21,11 @@ INSERT INTO `telepon` (`id`, `nama`, `nomor`) VALUES
 (2, 'Mars', '08576666770'),
 (7, 'Alpha', '08576666765');
 
+```
+
 9. Buka database.php pada rest_ci/application/config ubah menjadi
+
+```php
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
@@ -46,8 +52,11 @@ $db['default'] = array(
     'failover' => array(),
     'save_queries' => TRUE
 );
+```
 
 10. Buat file php baru di di rest_ci/application/controller dengan nama kontak.php
+
+```php
 <?php
 
 defined('BASEPATH') OR exit('No direct script access allowed');
@@ -114,6 +123,7 @@ class Kontak extends REST_Controller {
 
 }
 ?>
+```
 
 11. Buka postman dan jalankan. Kita dapat menjalankan beberapa method pad apostman. 
 a. GET untuk menampilkan/read database.
