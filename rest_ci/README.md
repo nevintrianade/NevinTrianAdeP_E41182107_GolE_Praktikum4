@@ -1,4 +1,4 @@
-# ci-restserver
+# REST API Server Sederhana dengan Codeigniter 3
 
 1. Buka aplikasi xampp, klik start pada apache dan mysql.
 2. Download file rest ci pada link https://github.com/ardisaurus/ci-restserver
