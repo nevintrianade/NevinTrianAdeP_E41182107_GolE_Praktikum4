@@ -125,10 +125,6 @@ class Kontak extends REST_Controller {
 ?>
 ```
 
-11. Buka postman dan jalankan. Kita dapat menjalankan beberapa method pad apostman. 
-a. GET untuk menampilkan/read database.
-b. POST untuk menambahkan/insert database.
-c. PUT untuk mengubah/edit database.
-d. DELETE untuk hapus/delete database.
+11. Buka postman dan jalankan. Kita dapat menjalankan beberapa method. GET untuk menampilkan/read database, POST untuk menambahkan/insert database, PUT untuk mengubah/edit database, dan DELETE untuk hapus/delete database.
 
 
